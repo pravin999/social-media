@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticker Sentiment Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .input-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .results {
+            display: none;
+        }
+        
+        .results.show {
+            display: block;
+        }
+        
+        .summary {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .summary h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .sentiment-score {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .sentiment-label {
+            font-size: 1.3em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .distribution {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .dist-item {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background: #f8f9fa;
+        }
+        
+        .dist-item.bullish {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .dist-item.neutral {
+            background: #e2e3e5;
+            color: #383d41;
+        }
+        
+        .dist-item.bearish {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .dist-value {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .dist-label {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .posts-section {
+            margin-top: 20px;
+        }
+        
+        .posts-section h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .post {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .post.bearish {
+            border-left-color: #dc3545;
+        }
+        
+        .post-score {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .post-text {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        
+        .post-meta {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .post-link {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .post-link:hover {
+            text-decoration: underline;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: none;
+        }
+        
+        .error.show {
+            display: block;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            display: none;
+        }
+        
+        .loading.show {
+            display: block;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Ticker Sentiment Analysis</h1>
+            <p>Real-time X (Twitter) sentiment analysis for any stock or crypto</p>
+        </div>
+        
+        <div class="card">
+            <form id="analysisForm">
+                <div class="form-group">
+                    <label for="ticker">Ticker Symbol *</label>
+                    <input type="text" id="ticker" name="ticker" placeholder="e.g., TSLA, AAPL, BTC" required>
+                </div>
+                
+                <div class="input-row">
+                    <div class="form-group">
+                        <label for="hours">Lookback Hours</label>
+                        <input type="number" id="hours" name="hours" value="24" min="1" max="168">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="max_results">Max Results</label>
+                        <input type="number" id="max_results" name="max_results" value="100" min="10" max="100">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="company_name">Company Name (optional)</label>
+                    <input type="text" id="company_name" name="company_name" placeholder="e.g., Tesla">
+                </div>
+                
+                <button type="submit">Analyze Sentiment</button>
+            </form>
+            
+            <div class="error" id="error"></div>
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Fetching and analyzing posts...</p>
+            </div>
+        </div>
+        
+        <div class="results" id="results">
+            <div class="card">
+                <div class="summary" id="summary"></div>
+                
+                <div class="distribution" id="distribution"></div>
+                
+                <div class="posts-section" id="bullishPosts"></div>
+                
+                <div class="posts-section" id="bearishPosts"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const form = document.getElementById('analysisForm');
+        const results = document.getElementById('results');
+        const loading = document.getElementById('loading');
+        const error = document.getElementById('error');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Reset UI
+            results.classList.remove('show');
+            error.classList.remove('show');
+            loading.classList.add('show');
+            
+            const formData = {
+                ticker: document.getElementById('ticker').value,
+                hours: parseInt(document.getElementById('hours').value),
+                max_results: parseInt(document.getElementById('max_results').value),
+                company_name: document.getElementById('company_name').value
+            };
+            
+            try {
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Analysis failed');
+                }
+                
+                displayResults(data);
+                
+            } catch (err) {
+                error.textContent = err.message;
+                error.classList.add('show');
+            } finally {
+                loading.classList.remove('show');
+            }
+        });
+        
+        function displayResults(data) {
+            if (data.total_posts === 0) {
+                error.textContent = data.message || 'No posts found for this ticker';
+                error.classList.add('show');
+                return;
+            }
+            
+            // Summary
+            const sentimentEmoji = data.sentiment_class === 'bullish' ? '🟢' : 
+                                  data.sentiment_class === 'bearish' ? '🔴' : '⚪';
+            document.getElementById('summary').innerHTML = `
+                <h2>${sentimentEmoji} $${data.ticker}</h2>
+                <div class="sentiment-score">${data.average_sentiment.toFixed(3)}</div>
+                <div class="sentiment-label">${data.sentiment_class}</div>
+                <p style="margin-top: 10px;">Based on ${data.total_posts} posts</p>
+            `;
+            
+            // Distribution
+            document.getElementById('distribution').innerHTML = `
+                <div class="dist-item bullish">
+                    <div class="dist-value">${data.percentages.bullish.toFixed(1)}%</div>
+                    <div class="dist-label">Bullish (${data.distribution.bullish})</div>
+                </div>
+                <div class="dist-item neutral">
+                    <div class="dist-value">${data.percentages.neutral.toFixed(1)}%</div>
+                    <div class="dist-label">Neutral (${data.distribution.neutral})</div>
+                </div>
+                <div class="dist-item bearish">
+                    <div class="dist-value">${data.percentages.bearish.toFixed(1)}%</div>
+                    <div class="dist-label">Bearish (${data.distribution.bearish})</div>
+                </div>
+            `;
+            
+            // Top bullish posts
+            if (data.top_bullish && data.top_bullish.length > 0) {
+                document.getElementById('bullishPosts').innerHTML = `
+                    <h3>🟢 Most Bullish Posts</h3>
+                    ${data.top_bullish.map(post => `
+                        <div class="post">
+                            <div class="post-score">Score: ${post.score.toFixed(3)}</div>
+                            <div class="post-text">${escapeHtml(post.text)}</div>
+                            <div class="post-meta">
+                                @${post.username} • 
+                                <a href="${post.url}" target="_blank" class="post-link">View on X</a>
+                            </div>
+                        </div>
+                    `).join('')}
+                `;
+            }
+            
+            // Top bearish posts
+            if (data.top_bearish && data.top_bearish.length > 0) {
+                document.getElementById('bearishPosts').innerHTML = `
+                    <h3>🔴 Most Bearish Posts</h3>
+                    ${data.top_bearish.map(post => `
+                        <div class="post bearish">
+                            <div class="post-score">Score: ${post.score.toFixed(3)}</div>
+                            <div class="post-text">${escapeHtml(post.text)}</div>
+                            <div class="post-meta">
+                                @${post.username} • 
+                                <a href="${post.url}" target="_blank" class="post-link">View on X</a>
+                            </div>
+                        </div>
+                    `).join('')}
+                `;
+            }
+            
+            results.classList.add('show');
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>

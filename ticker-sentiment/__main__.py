@@ -1,0 +1,119 @@
+"""CLI entry point for ticker sentiment analysis."""
+
+import sys
+import argparse
+from config import Config
+from twitter_api import TwitterAPI
+from sentiment import SentimentAnalyzer
+from report import ReportGenerator
+
+
+def main():
+    """Main CLI function."""
+    parser = argparse.ArgumentParser(
+        description='Analyze X (Twitter) sentiment for any stock/crypto ticker',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python -m ticker-sentiment TSLA
+  python -m ticker-sentiment AAPL --hours 48
+  python -m ticker-sentiment BTC --json
+  python -m ticker-sentiment TSLA --max-results 200
+  python -m ticker-sentiment NVDA --company-name "NVIDIA"
+
+Setup:
+  1. Copy .env.example to .env
+  2. Add your X Bearer Token to .env
+  3. Get a token from: https://developer.twitter.com/en/portal/dashboard
+        """
+    )
+    
+    parser.add_argument(
+        'ticker',
+        help='Stock or crypto ticker symbol (e.g., TSLA, AAPL, BTC)'
+    )
+    
+    parser.add_argument(
+        '--hours',
+        type=int,
+        default=Config.DEFAULT_LOOKBACK_HOURS,
+        help=f'Hours to look back (default: {Config.DEFAULT_LOOKBACK_HOURS})'
+    )
+    
+    parser.add_argument(
+        '--max-results',
+        type=int,
+        default=Config.DEFAULT_MAX_RESULTS,
+        help=f'Maximum number of posts to fetch (default: {Config.DEFAULT_MAX_RESULTS})'
+    )
+    
+    parser.add_argument(
+        '--company-name',
+        help='Optional company name to include in search (e.g., "Tesla")'
+    )
+    
+    parser.add_argument(
+        '--json',
+        action='store_true',
+        help='Output results as JSON instead of human-readable format'
+    )
+    
+    args = parser.parse_args()
+    
+    try:
+        # Validate configuration
+        Config.validate()
+        
+        # Initialize components
+        twitter_api = TwitterAPI()
+        sentiment_analyzer = SentimentAnalyzer()
+        
+        # Fetch posts
+        print(f"Fetching posts for ${args.ticker.upper()}...", file=sys.stderr)
+        posts = twitter_api.search_recent_posts(
+            ticker=args.ticker,
+            lookback_hours=args.hours,
+            max_results=args.max_results,
+            include_company_name=args.company_name
+        )
+        
+        if not posts:
+            print(f"\nNo posts found for ${args.ticker.upper()} in the last {args.hours} hours.", file=sys.stderr)
+            print("This could mean:", file=sys.stderr)
+            print("  - The ticker isn't being discussed on X", file=sys.stderr)
+            print("  - Try a different time window with --hours", file=sys.stderr)
+            print("  - Add --company-name if the company name is commonly used", file=sys.stderr)
+            sys.exit(0)
+        
+        print(f"Analyzing {len(posts)} posts...\n", file=sys.stderr)
+        
+        # Analyze sentiment
+        analysis = sentiment_analyzer.analyze_posts(posts)
+        
+        # Generate report
+        if args.json:
+            report = ReportGenerator.generate_json_report(
+                args.ticker, analysis, args.hours
+            )
+        else:
+            report = ReportGenerator.generate_terminal_report(
+                args.ticker, analysis, args.hours
+            )
+        
+        print(report)
+        
+    except ValueError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+    except KeyboardInterrupt:
+        print("\nAnalysis interrupted.", file=sys.stderr)
+        sys.exit(130)
+    except Exception as e:
+        print(f"Unexpected error: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()
