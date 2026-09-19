@@ -50,19 +50,19 @@ X_BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAALongStringOfCharacters
 
 ```bash
 # Basic analysis
-python3 analyze.py TSLA
+python3 analyze TSLA
 
 # Analyze different ticker with custom time window
-python3 analyze.py AAPL --hours 48
+python3 analyze AAPL --hours 48
 
 # Get JSON output for programmatic use
-python3 analyze.py BTC --json
+python3 analyze BTC --json
 
 # Increase results and include company name
-python3 analyze.py TSLA --max-results 200 --company-name "Tesla"
+python3 analyze TSLA --max-results 200 --company-name "Tesla"
 
 # Crypto analysis
-python3 analyze.py ETH --hours 12
+python3 analyze ETH --hours 12
 ```
 
 #### Web UI (Optional)
@@ -116,7 +116,7 @@ TOP BEARISH POSTS
 ### JSON Output
 
 ```bash
-python3 analyze.py TSLA --json > tsla_sentiment.json
+python3 analyze TSLA --json > tsla_sentiment.json
 ```
 
 ```json
@@ -149,7 +149,7 @@ python3 analyze.py TSLA --json > tsla_sentiment.json
 ## Command Line Options
 
 ```
-python3 analyze.py TICKER [OPTIONS]
+python3 analyze TICKER [OPTIONS]
 
 Arguments:
   TICKER              Stock or crypto ticker symbol (e.g., TSLA, AAPL, BTC)
@@ -166,14 +166,14 @@ Options:
 
 ### 1. Quick Sentiment Check
 ```bash
-python3 analyze.py TSLA
+python3 analyze TSLA
 ```
 
 ### 2. Compare Multiple Tickers
 ```bash
 for ticker in TSLA AAPL NVDA MSFT; do
   echo "=== $ticker ==="
-  python3 analyze.py $ticker --json
+  python3 analyze $ticker --json
   echo ""
 done
 ```
@@ -181,7 +181,7 @@ done
 ### 3. Extended Time Window
 ```bash
 # Check weekend sentiment
-python3 analyze.py BTC --hours 72
+python3 analyze BTC --hours 72
 ```
 
 ### 4. Integration with Scripts
@@ -193,7 +193,7 @@ import os
 # Run from ticker-sentiment directory
 os.chdir('ticker-sentiment')
 result = subprocess.run(
-    ['python3', 'analyze.py', 'AAPL', '--json'],
+    ['python3', 'analyze', 'AAPL', '--json'],
     capture_output=True,
     text=True
 )

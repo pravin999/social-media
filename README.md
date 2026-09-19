@@ -13,7 +13,7 @@ X (Twitter) sentiment analysis for any stock or crypto ticker. Get real-time sen
 cd ticker-sentiment
 pip install -r requirements.txt
 cp .env.example .env  # Add your X Bearer Token
-python -m ticker-sentiment TSLA
+python3 analyze TSLA
 ```
 
 See the [ticker-sentiment README](./ticker-sentiment/README.md) for full documentation.
