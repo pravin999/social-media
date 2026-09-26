@@ -1,0 +1,463 @@
+{"ts": 1787918690.792431, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 34.78, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1787923468.7245748, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 37.55, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1787931267.19108, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 185.34, "qty": 9, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1787947667.164225, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 178.09, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1787948415.3628447, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 167.69, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1787948892.856159, "symbol": "SPY", "action": "entry", "side": "buy", "price": 487.51, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1787950718.6979344, "symbol": "SPY", "action": "exit", "side": "sell", "price": 454.72, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1787968461.053013, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 250.62, "qty": 3, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1787971826.5569556, "symbol": "TSLA", "action": "exit", "side": "sell", "price": 259.27, "qty": 3, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1787973729.47079, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.59, "qty": 9, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1787974048.3639424, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.77, "qty": 9, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1787982805.674715, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.81, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1787986465.7882779, "symbol": "RDW", "action": "exit", "side": "sell", "price": 7.48, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1787994438.180669, "symbol": "SPY", "action": "entry", "side": "sell", "price": 498.96, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1787995525.698314, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 469.41, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1787995918.3738844, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 474.44, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1787999890.1882572, "symbol": "SPY", "action": "exit", "side": "buy", "price": 518.46, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788041124.68464, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 188.75, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1788042109.8823419, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 182.24, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788057717.443252, "symbol": "AMD", "action": "entry", "side": "sell", "price": 120.75, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788058676.7420733, "symbol": "AMD", "action": "exit", "side": "buy", "price": 130.1, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788059507.15193, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 242.53, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1788060134.1478715, "symbol": "TSLA", "action": "exit", "side": "sell", "price": 259.57, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788066892.425835, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.86, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1788069035.243544, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.21, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788070659.235631, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 175.86, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1788074404.2019646, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 172.07, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788082413.844595, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 404.6, "qty": 5, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1788083038.327242, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 404.16, "qty": 5, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1788083645.706324, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 24.96, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1788086650.5624366, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 24.21, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788092281.226874, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.35, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1788092785.203877, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 244.95, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1788093064.7668219, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 12.9, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788095900.40176, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 183.24, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788101059.496383, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 424.49, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1788102600.206813, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 169.07, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788103903.678561, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 182.32, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1788104938.584197, "symbol": "SPY", "action": "entry", "side": "sell", "price": 490.22, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1788105598.5987227, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 410.72, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788105927.7128546, "symbol": "SPY", "action": "exit", "side": "buy", "price": 523.11, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788108054.3710434, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 194.14, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788112120.890815, "symbol": "RDW", "action": "entry", "side": "sell", "price": 8.21, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1788118574.4129891, "symbol": "RDW", "action": "exit", "side": "buy", "price": 8.11, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788137329.277011, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 247.94, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788138006.4994097, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 243.06, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788138225.179689, "symbol": "SPY", "action": "entry", "side": "buy", "price": 469.26, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788144963.0563877, "symbol": "SPY", "action": "exit", "side": "sell", "price": 447.01, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788145491.988931, "symbol": "SPY", "action": "entry", "side": "buy", "price": 477.45, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788148192.798781, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 434.44, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1788148740.825772, "symbol": "SPY", "action": "exit", "side": "sell", "price": 465.28, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788148973.1395972, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 415.51, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788156394.649245, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.91, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1788158054.692777, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.63, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1788158410.7970464, "symbol": "RDW", "action": "exit", "side": "buy", "price": 7.92, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1788160578.871854, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 182.12, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788164581.0032609, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 12.34, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788173143.187716, "symbol": "SPY", "action": "entry", "side": "sell", "price": 473.94, "qty": 6, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788173749.730284, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 441.02, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788175566.2846453, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 469.32, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788183584.755709, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 401.9, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788187081.1387012, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 391.79, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788201088.986447, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 34.66, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1788206706.3832455, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 36.3, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788212974.752738, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 185.48, "qty": 1, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788218161.761201, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 181.15, "qty": 1, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788224794.929566, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.26, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788229837.318939, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 34.7, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1788231164.4662223, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 12.39, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788232021.6141856, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 32.98, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788232793.362621, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 443.11, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788233077.2233968, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 460.73, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788242459.105031, "symbol": "AMD", "action": "entry", "side": "buy", "price": 114.02, "qty": 10, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1788243917.2309954, "symbol": "AMD", "action": "exit", "side": "sell", "price": 105.37, "qty": 10, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788271592.039197, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 444.3, "qty": 3, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788281627.939259, "symbol": "SPY", "action": "entry", "side": "sell", "price": 501.73, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788288465.122872, "symbol": "SPY", "action": "exit", "side": "buy", "price": 491.89, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788291288.167878, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.49, "qty": 9, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1788295595.870103, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 428.34, "qty": 2, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788296633.1807876, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 13.13, "qty": 9, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788311231.330381, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 249.95, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788312236.896415, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 24.56, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788313707.8026981, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 254.46, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788317070.1479223, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 25.39, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788321128.007022, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 460.83, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788327957.4201305, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 432.13, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788337223.779287, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.93, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788337674.794789, "symbol": "RDW", "action": "exit", "side": "buy", "price": 7.47, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788343023.348657, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 33.96, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1788346827.5811474, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 34.41, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788348440.56256, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.68, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1788353492.3917131, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.67, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1788356715.959594, "symbol": "AMD", "action": "entry", "side": "buy", "price": 125.51, "qty": 2, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1788362537.5698972, "symbol": "AMD", "action": "exit", "side": "sell", "price": 134.57, "qty": 2, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788362745.101932, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 26.08, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1788364487.846489, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 250.84, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1788373669.983395, "symbol": "AMD", "action": "entry", "side": "sell", "price": 121.03, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788376241.4450114, "symbol": "AMD", "action": "exit", "side": "buy", "price": 116.82, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788378539.790484, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 460.21, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1788384936.366001, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 459.46, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "time exit", "broker": "webull"}
+{"ts": 1788404288.93341, "symbol": "SPY", "action": "entry", "side": "buy", "price": 502.29, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1788406285.1124034, "symbol": "SPY", "action": "exit", "side": "sell", "price": 494.93, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788424711.134743, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 228.12, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788428886.528861, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 237.38, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788430162.9436636, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 228.03, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "time exit", "broker": "webull"}
+{"ts": 1788430342.49104, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.93, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1788434987.5795736, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 241.88, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788435570.225373, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 35.13, "qty": 2, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788437191.92428, "symbol": "RDW", "action": "exit", "side": "buy", "price": 8.23, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788451781.763081, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 25.95, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1788452105.338255, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 176.62, "qty": 2, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788456541.739478, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 164.52, "qty": 2, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788462989.316395, "symbol": "AMD", "action": "entry", "side": "sell", "price": 115.97, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1788463243.214013, "symbol": "AMD", "action": "exit", "side": "buy", "price": 124.17, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788467099.340913, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 35.56, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1788467453.9320624, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 34.68, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788486394.925521, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.91, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788489831.255846, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 455.22, "qty": 4, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1788493408.590394, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.12, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1788494101.8562226, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.85, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788495490.572581, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 432.02, "qty": 4, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788496577.005411, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.98, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788502807.6536803, "symbol": "RDW", "action": "exit", "side": "buy", "price": 7.35, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788506886.15365, "symbol": "AMD", "action": "entry", "side": "buy", "price": 116.41, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788511787.6910596, "symbol": "AMD", "action": "exit", "side": "sell", "price": 113.05, "qty": 2, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788512171.794505, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.57, "qty": 8, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788515136.105253, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.97, "qty": 6, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788524265.204591, "symbol": "SPY", "action": "entry", "side": "sell", "price": 501.69, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788525329.349831, "symbol": "SPY", "action": "exit", "side": "buy", "price": 484.7, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788555861.019564, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 186.88, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1788558636.9211142, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 177.22, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788561500.554769, "symbol": "AMD", "action": "entry", "side": "sell", "price": 117.4, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788565573.2909245, "symbol": "AMD", "action": "exit", "side": "buy", "price": 108.52, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788589128.514438, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 177.31, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1788591379.799499, "symbol": "AMD", "action": "entry", "side": "buy", "price": 125.06, "qty": 10, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1788592247.94306, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.5, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788592531.4245117, "symbol": "AMD", "action": "exit", "side": "sell", "price": 118.5, "qty": 10, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788593827.338204, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 419.16, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788596166.1948593, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 186.94, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788596633.9073288, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.92, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788598160.7529578, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 447.75, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788602062.600969, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 237.48, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1788604592.1263392, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 242.24, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788609623.730358, "symbol": "AMD", "action": "entry", "side": "sell", "price": 124.37, "qty": 5, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1788611178.519293, "symbol": "RDW", "action": "entry", "side": "sell", "price": 8.14, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788612958.3673654, "symbol": "AMD", "action": "exit", "side": "buy", "price": 128.58, "qty": 5, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788614561.954293, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.06, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1788616543.620112, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 184.68, "qty": 4, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788620536.4947865, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.55, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788620716.679829, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 171.36, "qty": 4, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788629319.146046, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 174.03, "qty": 4, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788631325.7755122, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 160.3, "qty": 4, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788633435.672317, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.19, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1788634384.64372, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 12.91, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788640129.255116, "symbol": "AMD", "action": "entry", "side": "sell", "price": 121.02, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1788643424.7856512, "symbol": "AMD", "action": "exit", "side": "buy", "price": 122.4, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788680291.516072, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 177.27, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788682317.8148181, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 166.92, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788716273.877072, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.18, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1788718888.0881844, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 12.4, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788726934.050589, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 248.28, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788732880.788516, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 429.64, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1788735694.429082, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 420.23, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788743864.572612, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 452.61, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1788748470.18995, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 36.7, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1788750040.9153395, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 482.18, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788760876.10331, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 242.53, "qty": 7, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788764045.3469932, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 242.92, "qty": 7, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1788774343.156451, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.62, "qty": 7, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1788775010.20553, "symbol": "RDW", "action": "entry", "side": "sell", "price": 8.0, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788777383.51192, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 10.72, "qty": 7, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788788628.197024, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 184.45, "qty": 7, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1788792015.227871, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 198.35, "qty": 7, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788795083.495368, "symbol": "AMD", "action": "entry", "side": "sell", "price": 123.95, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788795806.863656, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 177.85, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1788799478.934804, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 169.99, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788815120.093869, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 25.11, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1788821080.532256, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 23.98, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788842290.526044, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 228.32, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788848617.1093419, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 241.07, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788851281.48736, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 243.97, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1788852539.628347, "symbol": "TSLA", "action": "exit", "side": "sell", "price": 257.62, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1788857214.006639, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 413.36, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788860083.189051, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 33.89, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1788861474.2100587, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 404.86, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788866773.053678, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 35.22, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788867774.916075, "symbol": "SPY", "action": "entry", "side": "buy", "price": 475.51, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1788869189.426048, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 420.23, "qty": 3, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1788874839.2393768, "symbol": "SPY", "action": "exit", "side": "sell", "price": 451.19, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1788877770.340026, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 177.38, "qty": 7, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788894861.977998, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 432.93, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788897023.03039, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 459.01, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788901452.36811, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 36.51, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1788902336.216445, "symbol": "SPY", "action": "entry", "side": "buy", "price": 467.68, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788903932.0023522, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 36.47, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1788905182.7340367, "symbol": "SPY", "action": "exit", "side": "sell", "price": 435.53, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788922812.285888, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 24.31, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788929875.7491374, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 23.55, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788948026.081216, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 437.44, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1788951765.775515, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 444.17, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1788968965.882145, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 433.0, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1788970289.198253, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 188.04, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1788973809.7616467, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 178.84, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1788975429.2341325, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 426.26, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788983447.225354, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 442.96, "qty": 5, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1788989899.222153, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 430.72, "qty": 5, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1788993339.612968, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 433.43, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1788993954.174572, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 36.4, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1788994098.6373317, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 412.83, "qty": 5, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1788999340.2446156, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 36.36, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1789022604.119043, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 231.56, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1789023788.964032, "symbol": "SPY", "action": "entry", "side": "sell", "price": 466.64, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789025643.5257456, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 236.39, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789027077.322749, "symbol": "SPY", "action": "exit", "side": "buy", "price": 433.86, "qty": 10, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789041264.247268, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 35.75, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1789063990.739507, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 434.63, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1789064289.6987846, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 418.92, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789068250.99927, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 462.44, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1789068430.7181373, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 493.41, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789080690.588543, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 420.49, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1789081001.73889, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 396.83, "qty": 5, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789096318.54771, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 34.29, "qty": 7, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789099040.8500469, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 33.44, "qty": 7, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789125473.161881, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 432.67, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1789128900.3737268, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 463.66, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789131457.840933, "symbol": "SPY", "action": "entry", "side": "sell", "price": 497.34, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1789131983.9533834, "symbol": "SPY", "action": "exit", "side": "buy", "price": 518.91, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789133808.984389, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 433.25, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789136677.545285, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 248.03, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789140556.0607228, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 258.1, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789140640.027002, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 460.91, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789148136.420907, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 185.52, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1789148815.921384, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 178.42, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1789156817.01384, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 229.61, "qty": 7, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1789182830.808371, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 453.42, "qty": 6, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1789185539.3488579, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 429.46, "qty": 6, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789185927.753882, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 11.47, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1789186860.891357, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 35.04, "qty": 7, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789187383.3533163, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 10.74, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789190474.445992, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 35.08, "qty": 7, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1789190588.131655, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 436.6, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789190826.995201, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 24.31, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1789192313.304106, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 237.68, "qty": 9, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789197159.159124, "symbol": "AMD", "action": "entry", "side": "buy", "price": 118.77, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1789197546.7141955, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 412.48, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789198357.3228092, "symbol": "TSLA", "action": "exit", "side": "sell", "price": 252.14, "qty": 9, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789198727.447661, "symbol": "AMD", "action": "exit", "side": "sell", "price": 126.8, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789215052.862442, "symbol": "SPY", "action": "entry", "side": "buy", "price": 502.89, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1789215761.727053, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 35.92, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1789215883.682219, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 240.24, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1789216119.7812335, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 239.84, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1789218882.887183, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 11.77, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1789220639.3695834, "symbol": "SPY", "action": "exit", "side": "sell", "price": 539.47, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789220857.894629, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.06, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789221544.9894779, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 34.8, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789234363.565605, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 36.7, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "robinhood"}
+{"ts": 1789240685.7881622, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 39.09, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789240758.150477, "symbol": "AMD", "action": "entry", "side": "sell", "price": 125.22, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789245987.2591116, "symbol": "AMD", "action": "exit", "side": "buy", "price": 126.8, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789259314.292926, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 34.35, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789260076.138412, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 33.55, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789264196.117863, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 404.93, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1789264794.6253297, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 409.82, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789333888.508464, "symbol": "SPY", "action": "entry", "side": "sell", "price": 490.88, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1789334129.3432806, "symbol": "SPY", "action": "exit", "side": "buy", "price": 462.87, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789345644.635393, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 172.12, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1789350650.6035771, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 178.53, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789361266.487892, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 244.45, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1789361689.6368577, "symbol": "TSLA", "action": "exit", "side": "sell", "price": 238.28, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789378221.610649, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 35.14, "qty": 4, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1789379964.788056, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.4, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1789382413.186659, "symbol": "RDW", "action": "exit", "side": "sell", "price": 7.82, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789389878.029361, "symbol": "AMD", "action": "entry", "side": "buy", "price": 121.53, "qty": 1, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "webull"}
+{"ts": 1789393048.4568565, "symbol": "AMD", "action": "exit", "side": "sell", "price": 116.4, "qty": 1, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789409947.201035, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 35.07, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1789419348.696445, "symbol": "SPY", "action": "entry", "side": "buy", "price": 499.64, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1789422238.344168, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 188.65, "qty": 2, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789423863.2690475, "symbol": "SPY", "action": "exit", "side": "sell", "price": 513.3, "qty": 8, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789426621.5288937, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 182.89, "qty": 2, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789446050.150762, "symbol": "SPY", "action": "entry", "side": "sell", "price": 458.52, "qty": 3, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789449317.800699, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.06, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789455068.188124, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.82, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789462049.637752, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 174.6, "qty": 3, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1789463408.0356724, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 176.35, "qty": 3, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789508269.902887, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 244.1, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789512977.2048001, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 238.41, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789517031.842689, "symbol": "SPY", "action": "entry", "side": "sell", "price": 473.92, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789520947.6635714, "symbol": "SPY", "action": "exit", "side": "buy", "price": 445.15, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789529379.617802, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 24.26, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789534831.6177335, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 25.75, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789544235.661689, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 431.4, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1789546762.2354195, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 415.34, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1789549116.719247, "symbol": "AMD", "action": "entry", "side": "buy", "price": 115.82, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789551978.176746, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.67, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1789555449.5928237, "symbol": "AMD", "action": "exit", "side": "sell", "price": 116.03, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1789557176.982772, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 455.15, "qty": 9, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1789557589.6438367, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 428.32, "qty": 9, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789567508.817664, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 460.84, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1789568040.648591, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 175.81, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1789568067.3382592, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 475.52, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789572535.748869, "symbol": "TSLA", "action": "entry", "side": "buy", "price": 230.68, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1789572804.8406632, "symbol": "TSLA", "action": "exit", "side": "sell", "price": 241.76, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789574797.2550032, "symbol": "AAPL", "action": "exit", "side": "buy", "price": 188.72, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789584998.671726, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 25.03, "qty": 7, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1789592086.216377, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 415.32, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1789593185.363964, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.61, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1789593636.302535, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 414.49, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1789594703.594418, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 238.06, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789597387.5584085, "symbol": "RDW", "action": "exit", "side": "buy", "price": 7.73, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1789600555.4773986, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 231.82, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789608158.997375, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 460.47, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789609708.9523365, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 454.15, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789632842.290322, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.03, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789635134.9340384, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 12.04, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1789637015.060717, "symbol": "SPY", "action": "entry", "side": "buy", "price": 466.83, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1789642273.204536, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.56, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1789642509.621523, "symbol": "SPY", "action": "exit", "side": "sell", "price": 449.97, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1789642543.3034503, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 13.5, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789648104.364091, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 25.53, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1789651143.9173, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 179.95, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1789652399.3921807, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 27.17, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789657224.6223013, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 168.13, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789667238.915014, "symbol": "RDW", "action": "entry", "side": "sell", "price": 8.16, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789669461.5974584, "symbol": "RDW", "action": "exit", "side": "buy", "price": 8.03, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789689446.747561, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.45, "qty": 5, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1789692885.358499, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 34.63, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1789698057.5892875, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 33.55, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789698582.045568, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.31, "qty": 10, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1789745043.051477, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 414.23, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1789745161.212202, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 444.82, "qty": 9, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789747717.186868, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 405.07, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1789751854.6270041, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 404.91, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1789778904.079565, "symbol": "RDW", "action": "entry", "side": "sell", "price": 8.24, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1789779968.687014, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 26.14, "qty": 3, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "webull"}
+{"ts": 1789783079.1103036, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 26.54, "qty": 3, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789785666.7535038, "symbol": "RDW", "action": "exit", "side": "buy", "price": 8.24, "qty": 2, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1789787159.448903, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 234.68, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1789788187.07519, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 216.54, "qty": 7, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789797723.686416, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 26.12, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1789802688.6555753, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 27.15, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789809545.85406, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 429.06, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1789814089.54984, "symbol": "AMD", "action": "entry", "side": "sell", "price": 123.98, "qty": 4, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1789816395.328836, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 402.92, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1789817252.023815, "symbol": "AMD", "action": "exit", "side": "buy", "price": 118.38, "qty": 4, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1789830848.343111, "symbol": "SPY", "action": "entry", "side": "buy", "price": 489.96, "qty": 7, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1789830856.764457, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.04, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1789832314.94239, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.61, "qty": 3, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789832366.0155466, "symbol": "SPY", "action": "exit", "side": "sell", "price": 508.58, "qty": 7, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789837495.636061, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 26.12, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1789839066.256404, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 432.26, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1789840720.11033, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 27.41, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789840978.0846918, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 424.69, "qty": 4, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1789845351.174252, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 25.65, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1789846360.550067, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 23.98, "qty": 8, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789856011.452571, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 436.33, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1789861129.0002081, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 403.25, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1789912412.990925, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 184.26, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1789917909.3265648, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 178.19, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1789930938.167975, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 183.79, "qty": 3, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1789981640.831661, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 464.81, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1789984022.2619536, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 482.51, "qty": 9, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1789988719.737435, "symbol": "SPY", "action": "entry", "side": "sell", "price": 473.38, "qty": 7, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1789992541.8135812, "symbol": "SPY", "action": "exit", "side": "buy", "price": 466.04, "qty": 7, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790014969.821212, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 35.32, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1790015284.2263901, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 36.48, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790019879.953142, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.38, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1790020417.7978015, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.58, "qty": 5, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790033351.442607, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.87, "qty": 1, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1790033465.982946, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 235.88, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1790036711.094557, "symbol": "RDW", "action": "exit", "side": "sell", "price": 7.75, "qty": 1, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790038183.8176708, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 236.23, "qty": 4, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1790041490.959267, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 470.88, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1790043376.851702, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 505.68, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790048897.590529, "symbol": "AMD", "action": "entry", "side": "buy", "price": 117.83, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1790049826.5670753, "symbol": "AMD", "action": "exit", "side": "sell", "price": 113.33, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790062852.240092, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 454.47, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1790064622.086177, "symbol": "NVDA", "action": "exit", "side": "sell", "price": 429.17, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790098551.119989, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 24.07, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1790100568.562074, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 34.04, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1790102743.9653592, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 33.32, "qty": 9, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790104959.8748884, "symbol": "SMCI", "action": "exit", "side": "buy", "price": 22.68, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1790105504.513959, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.31, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1790107176.195718, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 435.47, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1790108022.3834045, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.53, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790109414.148507, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 427.64, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790121451.96857, "symbol": "SPY", "action": "entry", "side": "buy", "price": 486.77, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "robinhood"}
+{"ts": 1790122928.041087, "symbol": "SPY", "action": "exit", "side": "sell", "price": 508.49, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790149844.291611, "symbol": "SPY", "action": "entry", "side": "buy", "price": 490.19, "qty": 3, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1790153899.96867, "symbol": "NVDA", "action": "entry", "side": "buy", "price": 450.11, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1790154736.617338, "symbol": "SPY", "action": "exit", "side": "sell", "price": 467.08, "qty": 3, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790161008.996771, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.16, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1790164390.3945909, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.74, "qty": 8, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1790174936.339209, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 399.24, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1790179789.549128, "symbol": "RDW", "action": "entry", "side": "sell", "price": 7.73, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1790179970.2011127, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 385.25, "qty": 3, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790181264.4316344, "symbol": "RDW", "action": "exit", "side": "buy", "price": 7.9, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790204777.776178, "symbol": "AAPL", "action": "entry", "side": "buy", "price": 181.39, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1790205534.7219546, "symbol": "AAPL", "action": "exit", "side": "sell", "price": 181.46, "qty": 8, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1790217502.347564, "symbol": "SPY", "action": "entry", "side": "buy", "price": 476.8, "qty": 3, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1790221534.6153615, "symbol": "SPY", "action": "exit", "side": "sell", "price": 493.42, "qty": 3, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790227611.872494, "symbol": "AMD", "action": "entry", "side": "sell", "price": 117.43, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1790228466.429195, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 11.93, "qty": 2, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1790232359.974594, "symbol": "QQQ", "action": "entry", "side": "buy", "price": 430.15, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1790233568.492317, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 439.35, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1790233722.8717234, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 439.17, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "webull"}
+{"ts": 1790233896.0209796, "symbol": "AMD", "action": "exit", "side": "buy", "price": 115.62, "qty": 6, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790234544.2337155, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 12.67, "qty": 2, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790237155.416371, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.51, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1790239111.5689178, "symbol": "QQQ", "action": "exit", "side": "sell", "price": 409.71, "qty": 6, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790240051.196584, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 24.72, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1790241611.7741036, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 11.52, "qty": 2, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1790245912.3672216, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 24.74, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "robinhood"}
+{"ts": 1790255217.36718, "symbol": "AMD", "action": "entry", "side": "sell", "price": 122.44, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1790257275.901208, "symbol": "AMD", "action": "entry", "side": "sell", "price": 116.15, "qty": 2, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1790258941.7731726, "symbol": "AMD", "action": "exit", "side": "buy", "price": 125.15, "qty": 1, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1790263424.70246, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 448.25, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1790264375.049121, "symbol": "SPY", "action": "entry", "side": "buy", "price": 485.51, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1790268297.9439454, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 440.09, "qty": 1, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790269567.2760324, "symbol": "SPY", "action": "exit", "side": "sell", "price": 458.08, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1790283338.700079, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 25.77, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1790287037.5554402, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 26.73, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790291568.911103, "symbol": "SOFI", "action": "entry", "side": "buy", "price": 12.25, "qty": 9, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1790292557.509835, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 25.78, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "robinhood"}
+{"ts": 1790293184.3688562, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 24.32, "qty": 10, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1790295802.524468, "symbol": "TSLA", "action": "entry", "side": "sell", "price": 239.94, "qty": 7, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1790297006.0004241, "symbol": "SOFI", "action": "exit", "side": "sell", "price": 12.23, "qty": 9, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1790298999.79584, "symbol": "SOFI", "action": "entry", "side": "sell", "price": 12.12, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "webull"}
+{"ts": 1790299401.8880706, "symbol": "TSLA", "action": "exit", "side": "buy", "price": 236.17, "qty": 7, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790300141.519336, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.7, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1790300591.885984, "symbol": "RDW", "action": "exit", "side": "sell", "price": 7.2, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "webull"}
+{"ts": 1790301884.651943, "symbol": "SOFI", "action": "exit", "side": "buy", "price": 11.75, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "webull"}
+{"ts": 1790310951.112364, "symbol": "AMD", "action": "entry", "side": "sell", "price": 116.74, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1790314791.069472, "symbol": "AMD", "action": "exit", "side": "buy", "price": 121.66, "qty": 1, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790341449.658748, "symbol": "AMD", "action": "entry", "side": "buy", "price": 120.63, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "oanda"}
+{"ts": 1790345189.219373, "symbol": "PLTR", "action": "entry", "side": "sell", "price": 34.78, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "oanda"}
+{"ts": 1790345284.031794, "symbol": "PLTR", "action": "exit", "side": "buy", "price": 32.11, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790347931.5383246, "symbol": "AMD", "action": "exit", "side": "sell", "price": 124.79, "qty": 10, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790350524.800813, "symbol": "QQQ", "action": "entry", "side": "sell", "price": 406.18, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "robinhood"}
+{"ts": 1790350682.137207, "symbol": "SMCI", "action": "entry", "side": "sell", "price": 24.61, "qty": 3, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1790355689.191966, "symbol": "SMCI", "action": "entry", "side": "buy", "price": 24.36, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "WISH signal triggered", "broker": "oanda"}
+{"ts": 1790356077.860078, "symbol": "QQQ", "action": "exit", "side": "buy", "price": 389.41, "qty": 5, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790359015.751514, "symbol": "SPY", "action": "entry", "side": "buy", "price": 461.94, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1790360789.2634046, "symbol": "SMCI", "action": "exit", "side": "sell", "price": 24.95, "qty": 8, "algo_id": "WISH_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790361701.603856, "symbol": "SPY", "action": "exit", "side": "sell", "price": 442.47, "qty": 6, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "stop loss", "broker": "robinhood"}
+{"ts": 1790362477.089061, "symbol": "RDW", "action": "entry", "side": "sell", "price": 8.21, "qty": 1, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "webull"}
+{"ts": 1790366113.688727, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.92, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "VWAP signal triggered", "broker": "oanda"}
+{"ts": 1790368896.346169, "symbol": "NVDA", "action": "entry", "side": "sell", "price": 463.82, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "robinhood"}
+{"ts": 1790369630.3745692, "symbol": "NVDA", "action": "exit", "side": "buy", "price": 436.93, "qty": 6, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790370184.8591135, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.39, "qty": 9, "algo_id": "VWAP_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790379866.277846, "symbol": "SPY", "action": "entry", "side": "sell", "price": 503.97, "qty": 8, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1790381648.1512475, "symbol": "SPY", "action": "exit", "side": "buy", "price": 503.53, "qty": 8, "algo_id": "TV_STRATEGY", "ok": true, "reason": "time exit", "broker": "oanda"}
+{"ts": 1790397387.492353, "symbol": "AMD", "action": "entry", "side": "buy", "price": 114.52, "qty": 7, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "RSI signal triggered", "broker": "oanda"}
+{"ts": 1790401022.880161, "symbol": "AMD", "action": "exit", "side": "sell", "price": 122.2, "qty": 7, "algo_id": "RSI_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
+{"ts": 1790402447.469399, "symbol": "AMD", "action": "entry", "side": "sell", "price": 119.54, "qty": 4, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "webull"}
+{"ts": 1790411869.844217, "symbol": "PLTR", "action": "entry", "side": "buy", "price": 34.73, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1790413309.4993088, "symbol": "PLTR", "action": "exit", "side": "sell", "price": 36.05, "qty": 1, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790418857.446199, "symbol": "RDW", "action": "entry", "side": "buy", "price": 8.19, "qty": 10, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1790421822.7974913, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.1, "qty": 10, "algo_id": "TV_STRATEGY", "ok": true, "reason": "stop loss", "broker": "oanda"}
+{"ts": 1790443622.946584, "symbol": "AMD", "action": "entry", "side": "sell", "price": 123.9, "qty": 4, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "GEX signal triggered", "broker": "robinhood"}
+{"ts": 1790448089.975639, "symbol": "AAPL", "action": "entry", "side": "sell", "price": 180.27, "qty": 4, "algo_id": "IWM_STRATEGY", "ok": true, "reason": "IWM signal triggered", "broker": "webull"}
+{"ts": 1790448187.250455, "symbol": "AMD", "action": "exit", "side": "buy", "price": 116.11, "qty": 4, "algo_id": "GEX_STRATEGY", "ok": true, "reason": "exit signal", "broker": "robinhood"}
+{"ts": 1790448999.30058, "symbol": "RDW", "action": "entry", "side": "buy", "price": 7.68, "qty": 5, "algo_id": "TV_STRATEGY", "ok": true, "reason": "TV signal triggered", "broker": "oanda"}
+{"ts": 1790450569.430473, "symbol": "RDW", "action": "exit", "side": "sell", "price": 8.01, "qty": 5, "algo_id": "TV_STRATEGY", "ok": true, "reason": "exit signal", "broker": "oanda"}
