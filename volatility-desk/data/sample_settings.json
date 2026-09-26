@@ -1,0 +1,66 @@
+{
+  "runner_enabled": true,
+  "allow_long": true,
+  "allow_short": true,
+  "universe": [
+    "SMCI",
+    "SOFI",
+    "RDW",
+    "PLTR",
+    "NVDA",
+    "AMD"
+  ],
+  "algos": {
+    "GEX_STRATEGY": {
+      "enabled": true,
+      "label": "GEX Stock",
+      "fund_pct": 50.0,
+      "min_conf": 10.0,
+      "max_hold_days": 5,
+      "tickers": [
+        "RDW",
+        "SOFI"
+      ]
+    },
+    "VWAP_STRATEGY": {
+      "enabled": true,
+      "label": "VWAP MultiDay",
+      "max_notional": 100.0,
+      "tickers": [
+        "SMCI",
+        "NVDA"
+      ]
+    },
+    "IWM_STRATEGY": {
+      "enabled": true,
+      "label": "IWM Calendar",
+      "contracts": 1,
+      "tickers": [
+        "IWM"
+      ]
+    },
+    "WISH_STRATEGY": {
+      "enabled": false,
+      "label": "WISH QQQ Call",
+      "tickers": [
+        "QQQ"
+      ]
+    },
+    "RSI_STRATEGY": {
+      "enabled": true,
+      "label": "Index RSI MR",
+      "shares": 2,
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ]
+    },
+    "TV_STRATEGY": {
+      "enabled": false,
+      "label": "TradingView Alerts",
+      "tickers": []
+    }
+  },
+  "poll_sec": 60
+}
